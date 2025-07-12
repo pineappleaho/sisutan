@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  background-color: #dcdcdc;
+}
+
+#main {
+  font-size: 100px;
+  padding: 30px;
+}
+
+.choices {
+  font-size: 13px;
+  border: none;
+  width: 20%;
+  height: 40px;
+  margin: 0px 0px 5px 0px;
+  font-weight: bold;
+}
+
+.langbtn input {
+  display: none;
+}
+.langbtn span {
+  border: 2px solid #27acd9;
+  border-radius: 100vh;
+  background: #27acd9;
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-user-select: none;
+}
+
+.langbtn span:hover {
+  background: #ffffff;
+  color: #27acd9;
+}
+
+.langbtn input:checked + span {
+  border: 2px solid #ffffff;
+  background: #ffffff;
+  color: #27acd9;
+}
+
+.langbtn input:checked + span:hover {
+  background: #27acd9;
+  color: #ffffff;
+}
+
+#number {
+  border: 2px solid #27acd9;
+  border-radius: 100vh;
+  background: #27acd9;
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  font-size: 15px;
+  font-weight: bold;
+  width: 35px;
+}
+
+#TorF {
+  padding: 10px 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#goresult {
+  background: #ffffe0;
+  font-weight: bold;
+}
+
+#show {
+  border-radius: 100vh;
+  background: #708090;
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.no-spin::-webkit-inner-spin-button,
+.no-spin::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+
+.execute {
+  border: 2px solid #ffa500;
+  border-radius: 100vh;
+  background: #ffa500;
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.execute:hover {
+  background: #ffffff;
+  color: #ffa500;
+}
+
+.execute:active {
+  color: #ffffff;
+}
+
+#from, #to{
+  width: 35px;
+  background: #27acd9;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+}
+
+.fromto {
+  border: 2px solid #27acd9;
+  border-radius: 100vh;
+  background: #27acd9;
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  font-size: 15px;
+  font-weight: bold;
+  width: 35px;
+}
+/*
+     FILE ARCHIVED ON 10:44:18 Mar 23, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:51:51 Jul 12, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.621
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.016
+  esindex: 0.011
+  cdx.remote: 7.463
+  LoadShardBlock: 169.964 (3)
+  PetaboxLoader3.datanode: 147.894 (5)
+  PetaboxLoader3.resolve: 152.225 (2)
+  load_resource: 175.94
+  loaddict: 64.407
+*/
